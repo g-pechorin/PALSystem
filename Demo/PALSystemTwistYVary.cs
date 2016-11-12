@@ -11,7 +11,7 @@ public class PALSystemTwistYVary : MonoBehaviour, PALSystem.ISoar
 		transform.localEulerAngles =
 			new Vector3(
 				(float)twistX.Random(variance),
-				(float)variance.Next(0.0, 360.0),
+				(float)(variance.NextDouble() * 360.0),
 				(float)0);
 	}
 }

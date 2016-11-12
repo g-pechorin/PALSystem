@@ -24,18 +24,6 @@ public class MinMaxRange
 
 	public double Random(System.Random variance)
 	{
-		return variance.Next(min, max);
+		return min + (variance.NextDouble() * (max - min));
 	}
-
-	/*
-#if UNITY_EDITOR
-	[CustomPropertyDrawer(typeof(MinMaxRange))]
-	public class Drawer : PropertyDrawer
-	{
-		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
-		{
-		}
-	}
-#endif
-*/
 }
