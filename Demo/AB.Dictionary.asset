@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03aa25e6b91a784ebeb7baf6f4de351, type: 3}
+  m_Name: AB.Dictionary
+  m_EditorClassIdentifier: 
+  terms:
+  - symbol: 65
+    data: {fileID: 1000011495625474, guid: 882752acc3809b54587baa8c9b2af35d, type: 2}
+  - symbol: 66
+    data: {fileID: 1000011148761120, guid: 4301a86660c24ff40ba2af261c2416f7, type: 2}
